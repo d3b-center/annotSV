@@ -32,7 +32,7 @@ RUN apt-get update && apt-get install -y \
 	liblzma-dev
 
 WORKDIR /opt
-ARG PACKAGE_VERSION=2.27.1
+ARG PACKAGE_VERSION=2.1
 ARG DEBIAN_FRONTEND=noninteractive
 
 # Update the repository sources list
